@@ -1,9 +1,9 @@
 {
   "name": "Weewx",
-  "version": "0.1.1",
+  "version": "0.1",
   "slug": "weewx-weather",
-  "description": "Weewx weather reporting with all the frills.",
-  "url": "https://gitlab.com/mitchins/hassio-weewx",
+  "description": "Weewx weather reporting",
+  "url": "https://github.com/magimat/weewx-ha-addon",
   "startup": "application",
   "init": false,
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
