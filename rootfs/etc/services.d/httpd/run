@@ -1,0 +1,10 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: Example
+# Runs example1 script
+# ==============================================================================
+
+
+bashio::log.info "Starting httpd..."
+
+exec python3 -m http.server 8020 --directory /config/weewx/reports

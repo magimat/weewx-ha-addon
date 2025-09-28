@@ -1,0 +1,29 @@
+{
+  "name": "Weewx",
+  "version": "0.1.1",
+  "slug": "weewx-weather",
+  "description": "Weewx weather reporting with all the frills.",
+  "url": "https://gitlab.com/mitchins/hassio-weewx",
+  "startup": "application",
+  "init": false,
+  "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
+  "boot": "auto",
+  "hassio_api": true,
+  "kernel_modules": true,
+  "auto_uart": true,
+  "udev": true,
+  "apparmor": false,
+  "map": [
+    "config:rw"
+  ],
+  "privileged": ["SYS_MODULE", "SYS_RAWIO"],
+  "usb": true,
+  "hassio_role": "default",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "8020/tcp": 8020
+  },"ports_description": {
+    "8020/tcp": "Simple HTTP access for reports output folder"
+  }
+}

@@ -1,0 +1,22 @@
+
+CONFIG_PARENT=/config
+CONFIG_DIR=$CONFIG_PARENT/weewx
+CONFIG_FILE=$CONFIG_DIR/weewx.conf
+CONFIG_SOURCE=/root/weewx
+if [ ! -f $CONFIG_FILE ]; then
+    bashio::log.info "Installing default config"
+    cp -a $CONFIG_SOURCE $CONFIG_PARENT
+    bashio::log.info "Successfully initialised config"
+fi
+
+bashio::log.info "Starting weewxd..."
+
+app=weewxd
+
+# Get the weewx location and interpreter.  Default to something sane, but
+# look for overrides from the system defaults.
+WEEWX_BINDIR=/usr/share/weewx/
+WEEWX_PYTHON=python3
+[ -r /etc/default/weewx ] && . /etc/default/weewx
+
+exec $WEEWX_PYTHON $WEEWX_BINDIR/$app --config=/config/weewx/weewx.conf
