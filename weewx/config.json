@@ -3,7 +3,7 @@
   "version": "0.1",
   "slug": "weewx-weather",
   "description": "Weewx weather reporting",
-  "url": "https://github.com/magimat/weewx-ha-addon",
+  "url": "https://github.com/magimat/ha-addons/tree/main/weewx",
   "startup": "application",
   "init": false,
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],

@@ -63,8 +63,8 @@ LABEL \
     org.opencontainers.image.authors="Mathieu Girard <mat.girarde@gmail.com>" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.url="https://addons.community" \
-    org.opencontainers.image.source="https://github.com/magimat/weewx-ha-addon" \
-    org.opencontainers.image.documentation="https://github.com/magimat/weewx-ha-addon/README.md" \
+    org.opencontainers.image.source="https://github.com/magimat/ha-addons/tree/main/weewx" \
+    org.opencontainers.image.documentation="https://github.com/magimat/ha-addons/tree/main/weewx/README.md" \
     org.opencontainers.image.created=${BUILD_DATE} \
     org.opencontainers.image.revision=${BUILD_REF} \
     org.opencontainers.image.version=${BUILD_VERSION}

@@ -1,5 +1,5 @@
 {
     "name": "Magimat HA addons",
-    "url": "https://github.com/magimat/weewx-ha-addon",
-    "maintainer": "Mitchell Currie <mitch@mitchellcurrie.com>"
+    "url": "https://github.com/magimat/ha-addons",
+    "maintainer": "Mathieu Girard <mat.girard@gmail.com>"
   }
