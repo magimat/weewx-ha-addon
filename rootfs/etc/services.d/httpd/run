@@ -2,4 +2,4 @@
 
 bashio::log.info "Starting httpd..."
 
-exec python3 -m http.server 8020 --directory /config/weewx/reports
+exec python3 -m http.server 8020 --directory /config/public_html
