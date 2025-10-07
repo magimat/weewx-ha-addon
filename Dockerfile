@@ -42,4 +42,3 @@ RUN wget http://www.weewx.com/downloads/released_versions/weewx-4.10.2.tar.gz -O
     && /home/weewx/bin/wee_config --reconfigure --driver=user.interceptor --no-prompt
 
 
-
