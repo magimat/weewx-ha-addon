@@ -1,7 +1,7 @@
-name: "Weewx"
+name: "Weewx-magi"
 description: "Addon to run weewx inside HA"
-version: "1.1.4"
-slug: "weewx"
+version: "1.0"
+slug: "weewx-magi"
 
 map:
   - type: addon_config
