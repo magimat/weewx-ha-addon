@@ -1,5 +1,5 @@
 name: "Weewx-magi"
-description: "Addon to run weewx inside HA"
+description: "Weewx home-assistant"
 version: "1.0"
 slug: "weewx-magi"
 
